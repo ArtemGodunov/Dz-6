@@ -2,7 +2,7 @@
      box-sizing: border-box;
  }
  body {
-    background-color: rgb(245, 245, 245);
+    background-color: #97ccf0;
 }
 .nav{
     min-height: 40;
@@ -54,7 +54,7 @@ header img {
 
 header img:hover {
     border: 5px solid #0499ff;
-    transform: scale(1.4) rotate(5deg);
+    transform: scale(1.4) rotate(360deg);
 }
 
 .Artem {
@@ -102,22 +102,14 @@ header img:hover {
     border-radius: 5px;
 }
 
-.tag-list {
-    display: flex;
-    flex-flow: row;
-    list-style-type: none;
-    color: white;
-}
-.tag-yellow {
-    background-color: #ff9904
-}
 
-.tag-blue {
-    background-color: #0399ff;
-    
-}
 
 footer {
     text-align: center;
     padding: 60px;
+}
+.tag-list {
+    display: flex;
+    flex-flow: row;
+    list-style-type: none;
 }

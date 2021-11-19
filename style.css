@@ -53,23 +53,41 @@ header img {
 }
 
 header img:hover {
-    border: 5px solid #fff;
+    border: 5px solid #0499ff;
     transform: scale(1.4) rotate(5deg);
 }
 
-.tag {
-    background-color: rgb(255, 255, 255);
+.Artem {
+    background-color: rgb(0, 0, 0);
     display: table;
     margin: 10px auto;
     padding: 10px;
     border-radius: 10px;
+    transition: all .5s;
+    color: #0499ff;
+}
+
+.Artem:hover {
+    border: 5px solid #0499ff;
+    transform: scale(1.4) rotate(5deg);
 }
 
 
 .sub-title {
     background-color: #000;
     color: #0499ff;
+    display: table;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all .5s;
 }
+
+.sub-title:hover {
+    border: 5px solid #0499ff;
+    transform: scale(1.4) rotate(5deg);
+}
+
 .content {
     display: flex;
     flex-flow: row;

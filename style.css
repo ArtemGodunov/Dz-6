@@ -65,6 +65,7 @@ header img:hover {
     border-radius: 10px;
     transition: all .5s;
     color: #0499ff;
+    min-height: 50px;
 }
 
 .Artem:hover {
@@ -81,6 +82,7 @@ header img:hover {
     padding: 10px;
     border-radius: 10px;
     transition: all .5s;
+    
 }
 
 .sub-title:hover {
